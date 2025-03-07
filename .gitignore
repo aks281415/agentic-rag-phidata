@@ -1,0 +1,15 @@
+*.pyc
+accounts.db
+*.log
+.DS_Store
+.idea/
+*.iml
+.venv
+/venv
+proxy_auth_plugin.zip 
+/myenv
+myenv
+venv
+vnev
+/vnev
+.env

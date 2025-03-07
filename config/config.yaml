@@ -1,0 +1,17 @@
+openai:
+  api_key: ""
+
+models:
+  main: "gpt-4o-mini"
+  chat: "gpt-4o-mini"
+  embedding: "text-embedding-3-small"
+
+vector_db:
+  collection: "rag_knowledge_base"
+  db_url: "postgresql+psycopg://ai:ai@localhost:5532/ai"
+
+pdf_urls:
+  - "https://phi-public.s3.amazonaws.com/recipes/ThaiRecipes.pdf"
+
+chunk_size: 1000
+chunk_overlap: 200
