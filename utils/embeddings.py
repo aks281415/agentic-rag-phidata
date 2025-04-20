@@ -1,4 +1,5 @@
 from phi.embedder.openai import OpenAIEmbedder
+# no functions of utils are being used currently
 
 embedder = OpenAIEmbedder(model="text-embedding-3-small")
 
